@@ -1,3 +1,11 @@
 /data
 /__pycache__
 /.ipynb_checkpoints
+*.png
+*.txt
+Untitled.ipynb
+Untitled1.ipynb
+model.ckpt
+*.ckpt
+*.pdf
+*.pptx
