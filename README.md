@@ -31,4 +31,22 @@ activation_funcs = ["ReLU", "LeakyReLU", "GELU"]
 ```
 Validates the model, sends validation information to **generate_charts()**. Finally, calls **test_model()**.
 
+## Part 2: Vision Transformer (ViT) Implementation and Comparison
+Part 2's [code](https://github.com/alexwelsby/AIML331_assign4/blob/master/Assignment3-Part2.ipynb) can be opened in Jupyter Notebook.
+
+Run All Cells to run.
+
+Part 2 follows the same basic structure as Part 1, but with **VisionTransformer(nn.Module)** and  **class AttentionBlock(nn.Module)** in place of **class configConvNet(nn.Module)**.
+
+Relevant parameters here are:
+```
+num_layers = [3, 4, 5, 6 ]
+
+patch_size = [4, 8, 16]
+
+para_embedding = [ "Fixed", "Learnable", None ]
+```
+
+For a total of 36 ViT models trained.
+
 **test_model(model, descript, batch_size, device)**: Tests the model. Calls **append_text_to_file(file_path, text_to_append)** with the model's parameters.
