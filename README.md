@@ -48,5 +48,3 @@ para_embedding = [ "Fixed", "Learnable", None ]
 ```
 
 For a total of 36 ViT models trained.
-
-**test_model(model, descript, batch_size, device)**: Tests the model. Calls **append_text_to_file(file_path, text_to_append)** with the model's parameters.
